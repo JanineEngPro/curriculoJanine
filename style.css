@@ -1,15 +1,32 @@
-.foto{
-    width: 20%;
+strong{
+    font-weight: bold;
 }
 header{
+    width: 90%;
+    margin:1em auto;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
+.foto{
+    width: 30%;
+}
 .nome{
-
+    font-size: 35px;
+    font-weight: bold;
+    padding: 0.5em;
+}
+p{
+    font-size: 20px;
+    padding: 0.1em 1em;
 }
 .icones{
-    width: 2%;
+    width: 2.5%;
+    
+    color:black;
+    font-size: 18px;
+}
+.cabecalho{
+    
 }
