@@ -54,3 +54,23 @@ p{
 .Final{
     margin-bottom: 2em;
 }
+@media screen and (max-width: 420px) {
+    header{
+        flex-direction: column;
+    }
+    .foto {
+        width: 73%;
+    }
+    body {
+        width: 96%;
+    }
+    .nome {
+        font-size: 33px;
+        font-weight: bold;
+        padding: 1em 0em;
+    }
+    p {
+        padding: 0.1em;
+    }
+
+}
